@@ -14,6 +14,7 @@ import java.nio.charset.StandardCharsets;
 public class ClientLoader {
     private Socket socket;
 
+
     /**
      * метод создающий соединение с сервером
      */
@@ -30,7 +31,7 @@ public class ClientLoader {
      * строкой JOIN
      * применяется OutputStreamWriter
      *
-     * @param contract
+     * @param contract документ
      */
     public void handle(Contract contract) {
         Converter converter = new Converter();
